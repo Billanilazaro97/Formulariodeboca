@@ -1,0 +1,40 @@
+form {
+    width: 60%;
+    margin: 30px  auto;
+    color: yellow
+    
+}
+h1 {
+    
+    color: yellow;
+    text-align: center;
+    font-weight: 700;
+    
+}
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    background-image: url(/soccer-boca-juniors-emblem-logo-hd-wallpaper-preview.jpg);
+
+}
+
+h2 {
+    text-align: center;
+    color: yellow;
+    font-weight: 700;
+
+}
+
+::placeholder {
+    color: white;
+}
+
+.notificaciones {
+    background-color: black;
+    width: 50%;
+    display: inline-block;
+}
+
+
+    

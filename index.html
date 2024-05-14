@@ -5,7 +5,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de ejemplo</title>
+    <title>Registro de socios</title>
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -38,10 +38,7 @@
         <label for="fecha">Fecha de nacimiento</label>
         <input type="date" name="Fecha" id="fecha"  maxlength="ej: 12/12/2020" >
 
-        <div class="notificaciones">
-            <label for="notificaciones">Recibir Informacion y notificaciones</label>
-            <input type="checkbox" name="notificaciones" id="notificaciones">
-        </div>
+       
 
         <h3>Selecione Turno</h3>
 
@@ -53,13 +50,17 @@
 
         <label for="TurnoN">Noche</label>
         <input type="radio" name="turno" id="turnoN" value="noche">
+        
 
-
+        <h3>Suba el frente y dorso de su DNI</h3>
         <input type="file" name="archivo" id="archivo">
         <input type="submit" value="Subir archivo">
 
 
-
+         <div class="notificaciones">
+            <label for="notificaciones">Recibir Informacion y notificaciones</label>
+            <input type="checkbox" name="notificaciones" id="notificaciones">
+        </div>
 
         <textarea name="cometarios" id="cometarios" cols="30" rows="10"  maxlength="500"    placeholder="cometarios..."></textarea>
 

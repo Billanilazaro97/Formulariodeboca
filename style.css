@@ -1,7 +1,8 @@
 form {
     width: 60%;
     margin: 30px  auto;
-    color: yellow
+    color: black
+    
     
 }
 h1 {
@@ -10,12 +11,14 @@ h1 {
     text-align: center;
     font-weight: 700;
     
+    
+    
 }
 body {
     background-repeat: no-repeat;
     background-size: cover;
-    
     background-image: url(img/soccer-boca-juniors-emblem-logo-hd-wallpaper-preview.jpg);
+
 
 }
 
@@ -23,23 +26,30 @@ h2 {
     text-align: center;
     color: yellow;
     font-weight: 700;
+    font-family: cursive;
+    text-shadow: 5px 5px 5px;
 
 }
 
 ::placeholder {
     color: white;
+    text-align: justify;
 }
 
 .notificaciones {
-    background-color: black;
-    width: 50%;
+    color: orangered;
+    width: 60%;
     display: inline-block;
+    text-align: justify;
 }
 
 h3{
-    color: blue;
-    
+    color: black;
+    text-align: justify;
     font-weight: 700;
 }
 
-    
+label, input {
+    display: inline-block;
+    margin-right: 10px;
+}
